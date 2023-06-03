@@ -1,0 +1,45 @@
+.cards {
+  background-color: #FFFF;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  text-align: center;
+  color: #5C5054;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 2);
+  border-radius: 5px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  overflow: hidden;
+  width: 220px;
+  height: 320px;
+  margin: 10px;
+  background-color: #dbd9d6;
+}
+
+.img-sleep {
+  object-position: 0px -130px;
+}
+
+.card > img {
+  object-fit: cover; /*scales image without distortion*/
+  width: 220px;
+  height: 180px;
+}
+
+.card p {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.card h3 {
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #545a74;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
